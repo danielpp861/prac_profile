@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="PROFILE" />
+    <meta property="og:description" content="박은총의 프로필 사이트입니다" />
+    <meta property="og:image" url="./박은총 증명사진.jpg" content="공유할 이미지" />
+    <link rel="stylesheet" type="text/css" href="./outline.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>박은총의 프로필 사이트</title>
+    <style>
+        .background {
+            background-color: rgb(200, 209, 226);
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+        }
+
+        .img {
+            width: 200px;
+            height: 200px;
+
+            background-image: url('./박은총 증명사진.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .buttonBox {
+            display: block;
+            text-align: center;
+        }
+
+        .btn1,
+        .btn2,
+        .btn3,
+        .btn4 {
+            background-color: bisque;
+            width: 150px;
+            height: 50px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: white;
+
+            display: inline-block;
+            text-align: center;
+            margin-top: 10px;
+            padding-top: 25px;
+
+            font-size: 18px;
+            font-family: 'Jua', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 40px;
+            font-family: 'Dongle', sans-serif;
+        }
+
+        p {
+            color: gray;
+            font-size: 12px;
+        }
+
+        .madeby {
+            width: auto;
+            height: 30px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="background">
+            <div class="img"></div>
+        </div>
+        <div>
+            <h1>박은총의 프로필 사이트</h1>
+            <div class="buttonBox">
+                <div>
+                    <div class="btn1" onclick="location.href='./profile.html'">PROFILE</div>
+                    <div class="btn2" onclick="location.href='./Spec.html'">SPEC</div>
+                </div>
+                <div>
+                    <div class="btn3" onclick="location.href='./photo.html'">PHOTO</div>
+                    <div class="btn4" onclick="location.href='./blog.html'">BLOG</div>
+                </div>
+            </div>
+        </div>
+        <div class="madeby">
+            <p>made by daniel_park</p>
+        </div>
+    </div>
+</body>
+
+</html>

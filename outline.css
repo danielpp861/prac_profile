@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Hi+Melody&family=Jua&family=Nanum+Gothic+Coding&family=Nanum+Gothic:wght@400;700&display=swap');
+
+.wrap{
+    width: 390px;
+    height: 844;
+    margin: 30px auto 0px auto;
+}
+.header{
+    width:auto;
+    height: 70px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.contents{
+    width: auto;
+    height: 670px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.footer{
+    width: auto;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
