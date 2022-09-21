@@ -14,6 +14,10 @@
     padding-right: 5px;
 
 }
+.header .headerA{
+    display: flex;
+    align-items: center;
+}
 .contents{
     width: auto;
     height: 670px;
