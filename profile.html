@@ -9,28 +9,7 @@
     <title>박은총의 프로필 사이트</title>
     <style>
         body {
-            background-color: rgb(234, 255, 255);
-        }
-
-        .photoBox {
-            display: flex;
-            justify-content: center;
-        }
-
-        .photo {
-            display: inline-block;
-            margin-top: 10px;
-            margin-left: 8px;
-            margin-bottom: 1px;
-            margin-right: 8px;
-        }
-
-        .photo:active {
-            transform: translateY(2px);
-        }
-
-        .photo>a {
-            box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.2);
+            background-color: rgb(234, 241, 255);
         }
 
         h2 {
@@ -38,10 +17,44 @@
             width: 300px;
         }
 
-        p {
+        .contents {
+            border-radius: 30px;
+            background-color: rgb(255, 246, 234);
+            margin-right: 5px;
+            padding: 10px 10px 10px 10px
+        }
+
+        .contentA {
+            height: 250px;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 10px;
+
             font-family: 'Nanum Gothic Coding', monospace;
             font-size: 15px;
-            height: 5px;
+        }
+
+        .contentB {
+            height: 250px;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 10px;
+
+            font-size: 15px;
+            font-family: 'Nanum Gothic Coding', monospace;
+        }
+
+        h3 {
+            font-family: 'Jua', sans-serif;
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        p {
+            line-height: 30px;
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
     </style>
 </head>
@@ -50,44 +63,32 @@
     <div class="wrap">
         <div class="header">
             <div class="headerA">
-                <h2>PHOTO</h2>
+                <h2>SPEC</h2>
                 <a href="javascript:goBack()"><img src="./back.png" alt="" width="25" height="25"></a>
             </div>
             <hr>
         </div>
         <div class="contents">
-            <div class="photoBox">
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
+            <div class="contentA">
+                <h3>학력 및 경력</h3>
+                <p>
+                    - 전북대학교 it응용시스템공학과 졸업<br>
+                    - 한국방송예술교육진흥원 방송음향학과 졸업 (4년 학사)<br>
+                    - (주)팀사운드 주임 (1년 4개월) <br>
+                    ...
+                </p>
             </div>
-            <div class="photoBox">
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-            </div>
-            <div class="photoBox">
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
+            <div class="contentB">
+                <h3>자격증</h3>
+                <p>
+                    - 워드프로세서<br>
+                    - 컴퓨터활용능력2급<br>
+                    - 무대예술전문인자격증 3급(음향)<br>
+                    - 운전면허 2종보통<br>
+                    ...
+                </p>
             </div>
         </div>
-        <br>
         <div class="footer">
             <a href="./mainpage.html"><img src="./home_button.png" alt="" width="40" height="40"></a>
         </div>
