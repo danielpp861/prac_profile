@@ -35,26 +35,31 @@
             text-align: center;
         }
 
-        .btn1,
-        .btn2,
-        .btn3,
-        .btn4 {
+        .btn {
             background-color: bisque;
             width: 150px;
-            height: 50px;
+            height: 70px;
             border-radius: 20px;
             border-style: solid;
             border-color: white;
 
             display: inline-block;
             text-align: center;
+            text-decoration: none;
             margin-top: 10px;
-            padding-top: 25px;
 
             font-size: 18px;
             font-family: 'Jua', sans-serif;
+
+            box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+            cursor: pointer;
         }
 
+        button:active {
+            background-color: rgb(233, 214, 186);
+            transform: translateY(2px);
+        }
+        
         h1 {
             text-align: center;
             margin-top: 30px;
@@ -76,6 +81,7 @@
             padding-left: 5px;
             padding-right: 5px;
         }
+
     </style>
 </head>
 
@@ -88,12 +94,12 @@
             <h1>박은총의 프로필 사이트</h1>
             <div class="buttonBox">
                 <div>
-                    <div class="btn1" onclick="location.href='./profile.html'">PROFILE</div>
-                    <div class="btn2" onclick="location.href='./Spec.html'">SPEC</div>
+                    <button class="btn" onclick="location.href='./profile.html'" onclick="">PROFILE</button>
+                    <button class="btn" onclick="location.href='./Spec.html'">SPEC</button>
                 </div>
                 <div>
-                    <div class="btn3" onclick="location.href='./photo.html'">PHOTO</div>
-                    <div class="btn4" onclick="location.href='./blog.html'">BLOG</div>
+                    <button class="btn" onclick="location.href='./photo.html'">PHOTO</button>
+                    <button class="btn" onclick="location.href='./blog.html'">BLOG</button>
                 </div>
             </div>
         </div>
