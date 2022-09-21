@@ -9,79 +9,81 @@
     <title>박은총의 프로필 사이트</title>
     <style>
         body {
-            background-color: rgb(234, 255, 255);
+            background-color: rgb(234, 255, 241);
         }
 
-        .photoBox {
-            display: flex;
-            justify-content: center;
+        .header {
+            height: 40px;
         }
 
-        .photo {
-            display: inline-block;
-            margin-top: 10px;
-            margin-left: 8px;
-            margin-bottom: 1px;
-            margin-right: 8px;
+        .contentBox {
+            background-color: rgba(255, 255, 255, 0.979);
+            margin-bottom: 10px;
+            padding-left: 4px;
+            padding-right: 4px;
+
         }
-        .photo:active{
-            transform: translateY(2px);
+
+        .contentBox:active {
+            margin-top: 5px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(170, 170, 170);
+            background-color: rgba(255, 255, 255, 0.712);
+
         }
-        .photo > a {
-            box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.2);
-        }
-        
-        h2 {
-            font-family: 'Nanum Gothic', sans-serif;
+
+        h4 {
+            font-family: 'Dongle', sans-serif;
+            font-size: 28px;
+            height: 10px;
         }
 
         p {
             font-family: 'Nanum Gothic Coding', monospace;
-            font-size: 15px;
-            height: 5px;
+            color: rgb(66, 66, 66);
+            line-height: 25px;
+        }
+
+        h2 {
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        .date {
+            text-align: right;
+            font-weight: bold;
         }
     </style>
+
 </head>
 
 <body>
     <div class="wrap">
         <div class="header">
-            <h2>PHOTO</h2>
+            <h2>BLOG</h2>
             <hr>
         </div>
         <div class="contents">
-            <div class="photoBox">
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
+            <div class="contentBackGround">
+                <div class="contentBox" onclick="location.href='./blog.html'">
+                    <h4>1박 2일 여수 여행</h4>
+                    <p>이 곳은 내용을 기록하는 부분입니다. 이 곳은 내용을 기록하는 부분입니다.이 곳은 내용을 기록...</p>
+                    <p class="date">2019.04.27</p>
                 </div>
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
+                <hr>
+                <div class="contentBox" onclick="location.href='./blog.html'">
+                    <h4>프론트앤드 공부!</h4>
+                    <p>이 곳은 내용을 기록하는 부분입니다. 이 곳은 내용을 기록하는 부분입니다.이 곳은 내용을 기록...</p>
+                    <p class="date">2020.05.11</p>
                 </div>
-            </div>
-            <div class="photoBox">
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-            </div>
-            <div class="photoBox">
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
-                </div>
-                <div class="photo">
-                    <a href="#"><img src="./sea.jpg" alt="" width="150" height="150"></a>
-                    <p>사진에 대한 설명...</p>
+                <hr>
+                <div class="contentBox" onclick="location.href='./blog.html'">
+                    <h4>피곤한 하루입니다ㅠ</h4>
+                    <p>이 곳은 내용을 기록하는 부분입니다. 이 곳은 내용을 기록하는 부분입니다.이 곳은 내용을 기록...</p>
+                    <p class="date">2021.09.20</p>
                 </div>
             </div>
         </div>
-        <br>
         <div class="footer">
             <a href="./mainpage.html"><img src="./home_button.png" alt="" width="40" height="40"></a>
         </div>
