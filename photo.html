@@ -24,15 +24,18 @@
             margin-bottom: 1px;
             margin-right: 8px;
         }
-        .photo:active{
+
+        .photo:active {
             transform: translateY(2px);
         }
-        .photo > a {
+
+        .photo>a {
             box-shadow: 0 6px 8px 2px rgba(0, 0, 0, 0.2);
         }
-        
+
         h2 {
             font-family: 'Nanum Gothic', sans-serif;
+            width: 300px;
         }
 
         p {
@@ -46,7 +49,11 @@
 <body>
     <div class="wrap">
         <div class="header">
-            <h2>PHOTO</h2>
+            <div class="headerA">
+                <h2>PHOTO</h2>
+                <a href="javascript:goBack()"><img src="./back.png" alt="" width="25" height="25"></a>
+                <script type="text/javascript" src="historyback.js"></script>
+            </div>
             <hr>
         </div>
         <div class="contents">
